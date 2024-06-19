@@ -1,0 +1,42 @@
+.footer {
+  background-color: var(--dark);
+  color: var(--white);
+  &-row {
+    justify-content: space-between;
+  }
+  &-logo {
+    &__link {
+      font-size: 30px;
+      color: var(--blue);
+      font-style: italic;
+    }
+  }
+  &-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+}
+
+.footer-social {
+  &__list {
+    display: flex;
+    column-gap: 30px;
+  }
+}
+
+.footer-nav {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  &__link {
+    color: var(--white);
+    font-size: 18px;
+    transition: color 0.2s ease-in-out;
+    &:hover {
+      color: var(--red);
+    }
+  }
+}

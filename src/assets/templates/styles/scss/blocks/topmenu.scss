@@ -1,0 +1,15 @@
+.nav {
+  &-list {
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+  }
+  &-link {
+    color: var(--white);
+    font-size: 17px;
+    transition: color 0.2s ease-in-out;
+    &:hover {
+      color: var(--red);
+    }
+  }
+}

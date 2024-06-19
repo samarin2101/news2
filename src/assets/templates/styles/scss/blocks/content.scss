@@ -1,0 +1,42 @@
+.content {
+  &-btn {
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 15px;
+  }
+  &-text {
+    p {
+      line-height: 1.7;
+      font-size: 16px;
+      text-align: justify;
+    }
+  }
+  &-item {
+    padding: 20px;
+    border: 1px solid #f2f2f2;
+    margin-bottom: 30px;
+  }
+  &-img {
+    a {
+      display: block;
+    }
+    img {
+      width: 100%;
+      min-height: 400px;
+      margin-bottom: 10px;
+    }
+  }
+  &-data {
+    margin-bottom: 10px;
+  }
+  &-title {
+    margin-bottom: 10px;
+  }
+  &-link {
+    font-size: 25px;
+    transition: color 0.2s ease-in-out;
+    &:hover {
+      color: var(--red);
+    }
+  }
+}

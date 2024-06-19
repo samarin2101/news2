@@ -1,0 +1,27 @@
+.header {
+  background-color: var(--dark);
+  color: var(--white);
+  padding: 20px 0;
+  &-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 30px;
+  }
+  &-logo {
+    &__link {
+      font-size: 30px;
+      color: var(--blue);
+      font-style: italic;
+    }
+  }
+  &-social {
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 30px;
+      align-items: center;
+    }
+  }
+}
